@@ -1,3 +1,51 @@
+* {
+  text-align: center;
+  font-family: arial, sans-serif;
+  color: grey;
+}
+body {
+  background-color: #eeeeee;
+}
 h1 {
   color: salmon;
+}
+h2 {
+  font-size: 15px;
+}
+h3 {
+  font-size: 8px;
+  font-weight: normal;
+}
+p {
+  color: rgba(255,255,255,.8);
+  font-size: 15px;
+  font-weight: normal;
+  padding-top: 60px;
+  padding-left: 3px;
+}
+.picholder {
+  display: inline-block;
+}
+.pictext {
+  height: 160px;
+  width: 160px;
+  align-content: center;
+  position: absolute;
+  color: white;
+  //border: 1px solid black;
+}
+.subtitle {
+  margin-top: -8px;
+}
+img {
+  height: 160px;
+  width: 160px;
+  margin: 3px;
+  object-fit: cover;
+}
+.button {
+  font-size: 9px;
+  padding: 8px 38px;
+  border: 1px solid grey;
+  font-weight: bold;
 }
